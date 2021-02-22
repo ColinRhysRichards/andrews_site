@@ -1,0 +1,17 @@
+/* mobile nav bar */
+.mobile_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.r_logo{
+
+}
+
+.hamburger_menu{
+
+}
+
+/* mobile landing page */
+
