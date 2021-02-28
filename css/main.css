@@ -84,16 +84,21 @@ body {
       
     }
     .mobile-nav {
+    background-color: #253140;
     display : flex;
     flex-direction : row;
     justify-content : space-between;
     /* height : 4rem; */
-    margin : 20px;
+    /* margin : 20px; */
     color : white;
     font-size : xx-large;
     }
     .r-logo {
     width : auto;
+    margin : 20px;
+    }
+    .hamburger-menu{
+    margin : 20px;
     }
     .landing-view {
     width : 100%;
@@ -136,9 +141,13 @@ body {
     background-color: #970c10;
     border: solid 1px #970c10;
     }
+    .aboutme-view{
+        background-image: url(../images/navy.jpg);
+    }
     .aboutme-container{
     background-color: white;
-    color: black;
+    background: rgba(0,0,0,0.52);
+    color: white;
     /* width : 100%;
     display : flex;
     flex-direction : column;
