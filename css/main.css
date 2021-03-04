@@ -86,7 +86,7 @@ body {
         padding: 7.5px;
     }
     hr {
-        background: linear-gradient(to right, #970c10 21%, rgba(0,0,0,.1) 42%);
+        background: linear-gradient(to right, #970c10 21%, rgba(0,0,0,0) 42%);
         height: 5px;
         border: none;
         margin: 7.5px;
@@ -154,14 +154,23 @@ body {
     border: solid 1px #970c10;
     }
     .aboutme-view{
-        background-image: linear-gradient(180deg, #253140 10.5%, rgba(255,255,255, 1) 42%);
+        background-color: white;
+        /* background-image: linear-gradient(180deg, #253140 10.5%, rgba(255,255,255, 1) 42%); */
     }
     .aboutme-container{
         background-color: white;
-        background: rgba(0,0,0,0.52);
-        color: white;
+        box-shadow: 0 4px 12px -2px rgba(107, 117, 161, .16);
+        /* background: rgba(0,0,0,0.52); */
+        /* color: white; */
         margin: 0 20px;
         padding: 30px 0px;
+    }
+    .aboutme-container > h2{
+        color: #4a4a4e;
+    font-weight: bold;
+    }
+    .aboutme-container > h3{
+        color: #4a5568;
     }
     .services-view{
         /* margin: 0;
@@ -212,6 +221,55 @@ body {
 }
 .card > h3{
     color: #4a5568;
+}
+.form-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 20px;
+}
+.form-text-container > h1{
+    color: #970c10;
+    margin: 7.5px 0px;
+}
+.form-text-container > h3{
+    color: #4a5568;
+    margin: 7.5px 0px;
+}
+.form-container > form{
+    display: flex;
+    flex-direction: column;
+}
+form > input, textarea{
+    background-color: rgba(34, 42, 47, 0.12);;
+    border: solid 1px #463f36;
+    padding: 15.5px;
+    border: 0;
+    color: #4a5568;
+    /* width: 100%; */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 19px 0px;
+    margin: 7.5px 7.5px;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif, Arial;
+    line-height: 1.2;
+}
+
+#form-submit{
+    background-color: #970c10;
+    border: solid 1px #970c10;
+    padding: 15.5px;
+    border: none;
+    color: white;
+    /* width: 100%; */
+    box-sizing: border-box;
+    text-align: center;
+    padding: 19px 0px;
+    margin: 30px 7.5px;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif, Arial;
+    line-height: 1.2;
 }
 
     /* Footer */
