@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <nav class="mobile-nav">
+    <!-- <nav class="mobile-nav">
         <div class="r-logo">R</div>
         <div class="hamburger-menu">ham</div>
-    </nav>
+    </nav> -->
     <section class="landing-view">
 
         <!-- <nav class="desktop_nav"></nav> -->
@@ -21,8 +21,8 @@
             <img class="responsive-image" src="./images/richards.png" />
         </div>
         <div id="btn-group">
-            <a class="hash-link" id="hash-link-maroon">About Me</a>
-            <a class="hash-link">Ask Me</a>
+            <a class="hash-link" id="hash-link-maroon" href="#aboutme-header">About Me</a>
+            <a class="hash-link" href="#form-container">Ask Me</a>
         </div>
     </section>
     <div id="image-container">
@@ -32,7 +32,7 @@
 
         <!-- <nav class="desktop_nav"></nav> -->
         <div class="aboutme-container">
-            <h1>About Me</h1>
+            <h1 id="aboutme-header">About Me</h1>
             <hr>
             <h2>Hello I'm Andrew and I am an accountant</h2>
             <h3>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -59,7 +59,7 @@
 
             <section class="services-view">
                 <div class="services-container">
-                    <h1>Services</h1>
+                    <h1 id="services-header">Services</h1>
                     <hr>
 
                     <div class="card">
@@ -92,7 +92,7 @@
                 </div>
         </div>
     </section>
-    <div class="form-container">
+    <div class="form-container" id="form-container">
         <div class="form-text-container" style="text-align:center">
             <h1>Questions?</h1>
             <h3>Swing by for a cup of coffee, or leave us a message:</h3>
@@ -109,15 +109,15 @@
             <input id="form-submit" type="submit" value="Submit">
         </form>
     </div>
-
     </div>
+    <hr id="footer-hr">
     <div class="footer-container">
         <div id="image-container">
-            <img class="responsive-image" src="./images/richards.png">
+            <img class="responsive-image" src="./images/logo.png" width="100px" height="auto">
         </div>
-        <a class="aboutme-link" href="#">About Me</a>
-        <a class="services-link" href="#">Services</a>
-        <a class="contact-link" href="#">Contact</a>
+        <a class="aboutme-link" href="#aboutme-header">About Me</a>
+        <a class="services-link" href="#services-header">Services</a>
+        <a class="contact-link" href="#form-container">Contact</a>
     </div>
 </body>
 

@@ -271,7 +271,12 @@ form > input, textarea{
     font-family: Helvetica, sans-serif, Arial;
     line-height: 1.2;
 }
-
+#footer-hr{
+    background: white;
+    height: 1px;
+    border: none;
+    margin: 0px;
+}
     /* Footer */
 
     .footer-container {
@@ -284,6 +289,14 @@ form > input, textarea{
     a {
         text-decoration: none;
         color: white;
+        font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    padding: 7.5px;
     }
 
     .aboutme-link {
