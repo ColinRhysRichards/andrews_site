@@ -92,106 +92,88 @@ body {
         margin: 7.5px;
       }
     .mobile-nav {
-    background-color: #253140;
-    display : flex;
-    flex-direction : row;
-    justify-content : space-between;
-    /* height : 4rem; */
-    /* margin : 20px; */
-    color : white;
-    font-size : xx-large;
+        background-color: #253140;
+        display : flex;
+        flex-direction : row;
+        justify-content : space-between;
+        color : white;
+        font-size : xx-large;
     }
     .r-logo {
-    width : auto;
-    margin : 20px;
+        width : auto;
+        margin : 20px;
     }
     .hamburger-menu{
-    margin : 20px;
+        margin : 20px;
     }
     .landing-view {
-    width : 100%;
-    height: calc(100vh - 52px);
-    background : #253140;
-    display : grid;
+        width : 100%;
+        height: calc(100vh - 52px);
+        background : #253140;
+        display : grid;
     }
     #image-container {
-    padding: 30px 0px;
-    width: 100%;
-    /* margin-left: 1rem; */
-    /* margin-right: 1rem; */
-    background-color: #253140;
-    align-items: center;
-    text-align: center;
+        padding: 30px 0px;
+        width: 100%;
+        background-color: #253140;
+        align-items: center;
+        text-align: center;
     }
     .responsive-image {
-    max-width: 100%;
-    height: auto;
+        max-width: 100%;
+        height: auto;
     }
     #btn-group {
-    display : flex;
-    flex-direction : column;
-    align-items : center;
-    margin: 0 20px;
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+        margin: 0 20px;
     }
     .hash-link {
-    width : 100%;
-    box-sizing: border-box;
-    text-align : center;
-    padding : 19px 0px;
-    margin: 7.5px 0px;
-    font-size : 15px;
-    font-family: Helvetica, sans-serif, Arial;
-    border-radius : 0;
-    line-height : 1.2;
-    border-width : 1px;
-    border-radius : 0;
-    border-color : white;
-    border-style : solid;
-    color : white;
+        width : 100%;
+        box-sizing: border-box;
+        text-align : center;
+        padding : 19px 0px;
+        margin: 7.5px 0px;
+        font-size : 15px;
+        font-family: Helvetica, sans-serif, Arial;
+        border-radius : 0;
+        line-height : 1.2;
+        border-width : 1px;
+        border-radius : 0;
+        border-color : white;
+        border-style : solid;
+        color : white;
     }
     #hash-link-maroon{
-    background-color: #970c10;
-    border: solid 1px #970c10;
+        background-color: #970c10;
+        border: solid 1px #970c10;
     }
     .aboutme-view{
         background-color: white;
-        /* background-image: linear-gradient(180deg, #253140 10.5%, rgba(255,255,255, 1) 42%); */
     }
     .aboutme-container{
         background-color: white;
         box-shadow: 0 4px 12px -2px rgba(107, 117, 161, .16);
-        /* background: rgba(0,0,0,0.52); */
-        /* color: white; */
         margin: 0 20px;
         padding: 30px 0px;
     }
     .aboutme-container > h2{
         color: #4a4a4e;
-    font-weight: bold;
+        font-weight: bold;
     }
     .aboutme-container > h3{
         color: #4a5568;
     }
     .services-view{
-        /* margin: 0;
-        padding: 0;
-        min-height: 100vh;
-        background: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: consolas; */
         background-color: white;
     }
     .services-container{
-        /* background-color: white;
-        background: rgba(0,0,0,0.52); */
         color: black;
         margin: 0 20px;
         padding: 30px 0px;
         
     }
-
     .services-container > hr{
         background: linear-gradient(to right, #970c10 21%, rgba(0,0,0,0) 42%);
         height: 5px;
